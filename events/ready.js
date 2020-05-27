@@ -7,9 +7,9 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
 var oyun = [
-        "-yardım ile yardım alabilirsin!",
-        "-yardım ile botun ne yaptığını öğrenebilirsin",
-        "- prefix işte kanka kullan -yardım yazarak"  
+        "xD",
+        "Umarim Gunun Guzel Geciyordur",
+        "Hey Selam"  
     ];
 
     setInterval(function() {
