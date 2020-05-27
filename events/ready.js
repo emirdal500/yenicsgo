@@ -7,15 +7,16 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
 var oyun = [
-        "-yardım - Güncellendi✨"
-        "-yardım - Güncellendi !
+        "-yardım ile yardım alabilirsin!",
+        "-yardım ile botun ne yaptığını öğrenebilirsin",
+        "- prefix işte kanka kullan -yardım yazarak"  
     ];
 
     setInterval(function() {
 
         var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
 
-        client.user.setActivity(oyun[random], "Botumuz Guvence Altindadir 7/24" );
+        client.user.setActivity(oyun[random], "https://www.twitch.tv/emirhansaracyt" );
         }, 2 * 2500);
     
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Aktif, Komutlar yüklendi!`);
